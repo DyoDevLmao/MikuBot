@@ -11,4 +11,5 @@ handler.tags = ['main']
 handler.command = /^afk$/i
 handler.limit = false
 
+export default handler
 
