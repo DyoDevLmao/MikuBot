@@ -316,10 +316,10 @@ export async function handler(chatUpdate) {
                     isBanned: false,
                     welcome: true,
                     detect: false,
-                    sWelcome: '',
-                    sBye: '',
-                    sPromote: '',
-                    sDemote: '',
+                    sWelcome: 'true',
+                    sBye: 'true',
+                    sPromote: 'true',
+                    sDemote: 'true',
                     delete: true,
                     antiLink: false,
                     viewonce: false,
@@ -327,7 +327,7 @@ export async function handler(chatUpdate) {
                     simi: false,
                     expired: 0,
                     nsfw: false,
-                    premnsfw: false,
+                    premnsfw: true,
                 }
             let settings = global.db.data.settings[this.user.jid]
             if (typeof settings !== 'object') global.db.data.settings[this.user.jid] = {}
@@ -532,7 +532,7 @@ export async function handler(chatUpdate) {
                 else
                     m.exp += xp
                 if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
-                    this.reply(m.chat, `[❗] Limit kau abis dek, beli melalui *${usedPrefix}buy limit*`, m)
+                    this.reply(m.chat, `[❗] Limitmu habis, beli melalui *${usedPrefix}buy limit*`, m)
                     continue // Limit habis
                 }
                 if (plugin.level > _user.level) {
