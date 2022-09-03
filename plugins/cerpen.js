@@ -18,4 +18,4 @@ handler.tags = ['internet']
 handler.command = /^cerpen$/i
 handler.limit = true
 
-module.exports = handler
+export default handler
