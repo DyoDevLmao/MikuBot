@@ -44,7 +44,7 @@ handler.command = /^(grouptime|gctime)$/i
 handler.botAdmin = true
 handler.group = true 
 
-module.exports = handler
+export default handler
 
 function clockString(ms) {
   let h = Math.floor(ms / 3600000)
