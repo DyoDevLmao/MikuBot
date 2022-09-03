@@ -33,4 +33,4 @@ handler.command = /^tekateki/i
 handler.limit = true
 handler.group = true
 
-module.exports = handler
+export default handler
