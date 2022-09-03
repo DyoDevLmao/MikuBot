@@ -23,7 +23,7 @@ handler.command = /^(igs(tory)?)$/i
 handler.limit = true
 handler.group = true
 
-module.exports = handler
+export default handler
 
 
 function igstory(username) {
