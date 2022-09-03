@@ -43,4 +43,4 @@ handler.tags = ['audio']
 handler.command = /^(bass|blown|deep|earrape|fas?t|nightcore|reverse|robot|slow|smooth|tupai|squirrel|chipmunk|vibra)$/i
 handler.limit = true
 
-module.exports = handler
+export default handler
