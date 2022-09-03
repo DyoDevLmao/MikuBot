@@ -156,7 +156,7 @@ global.dmenuf = '┗––––––––––✦' //footer
 global.dashmenu = '┅━━━═┅═❏ *ღ 𝘿𝘼𝙎𝙃𝘽𝙊𝘼𝙍𝘿 ღ* ❏═┅═━━━┅'
 global.cmenut = '❏––––––『'                       //top
 global.cmenuh = '』––––––'                        //header
-global.cmenub = '┊❀'                            //body
+global.cmenub = '┊•'                            //body
 global.cmenuf = '┗━═┅═━––––––๑\n'                //footer
 global.cmenua = '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     ' //after
 global.pmenus = '┊'                              //pembatas menu selector
@@ -169,8 +169,8 @@ global.htjava = '⫹⫺'    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
-global.stickpack = 'YuBot'
-global.stickauth = `☂︎\nM\nI\nK\nU-\n𝗕\n𝗢\n𝗧\n✦\n\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
+global.stickpack = 'MikuBot'
+global.stickauth = `☂︎\nM\nI\nK\nU\n𝗕\n𝗢\n𝗧\n✦\n\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
 global.packname = 'Cʀᴇᴀᴛᴇᴅ Bʏ MikuBot'
 
 global.multiplier = 38 // The higher, The harder levelup
