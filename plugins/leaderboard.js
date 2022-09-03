@@ -54,7 +54,7 @@ handler.botAdmin = false
 handler.fail = null
 handler.exp = 0
 
-module.exports = handler
+export default handler
 
 function sort(property, ascending = true) {
   if (property) return (...args) => args[ascending & 1][property] - args[!ascending & 1][property]
