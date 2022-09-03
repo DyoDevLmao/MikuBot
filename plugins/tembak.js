@@ -157,4 +157,4 @@ handler.command = /^(tembak)$/i;
 handler.group = true;
 handler.limit = true;
 handler.fail = null;
-module.exports = handler;
+export default handler
