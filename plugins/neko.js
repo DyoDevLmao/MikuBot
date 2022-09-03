@@ -13,4 +13,4 @@ handler.tags = ['internet']
 handler.command = /^neko$/i
 handler.limit = false
 
-module.exports = handler
+export default handler
