@@ -30,4 +30,4 @@ ketik #astagfirullah* atau *#maaf* untuk mengurangi warning
     }
     return !0
 }
-module.exports = handler
+export default handler
