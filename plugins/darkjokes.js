@@ -5,4 +5,4 @@ handler.help = ['darkjokes']
 handler.tags = ['internet']
 handler.command = /^(dragjokes|darkjokes)$/i
 
-module.exports = handler
+export default handler
