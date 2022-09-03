@@ -16,4 +16,4 @@ handler.premium = false
 handler.group = true
 handler.limit = true
 handler.fail = null
-module.exports = handler
+export default handler
