@@ -21,4 +21,4 @@ Maaf Kamu akan dikick dari grup ini!
 handler.group = true
 handler.register = true
 
-module.exports = handler
+export default handler
