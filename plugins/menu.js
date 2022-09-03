@@ -319,13 +319,11 @@ let usrs = db.data.users[m.sender]
 │⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ┬
 ├━━━━━━━━━━━━━━━━┈─⋆
-│ ▸ *ᴀᴜᴛʜᴏʀ :* bochilgemink 
 ┴ ▸ *ᴏᴡɴᴇʀ :* Ryu(dyomarselo)
 ✧
 ┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
-│ ʙᴇʀɪ ᴊᴇᴅᴀ ʏᴀʜ ᴋᴀᴋ ^ω^
+│ JGN SPAM YAH KAK^ω^
 ╰━━━━━━━━━━━━━━━━┈─◂
-     ▌│█║▌║▌║║▌║▌║█│▌
      
      ${week}, ${date}`,
           "buttonText": "Click Here!",
@@ -448,7 +446,7 @@ let usrs = db.data.users[m.sender]
                                 }, {
                                 "rows": [{
                                 "title": "[🗳️] Donasi",
-                                "description": "Donasi kak, jangan enak pakenya doang",
+                                "description": "DONASI AGAR BOT FAST RESPON ",
                                 "rowId": ".donasi"
                                 }, {
                                 "title": "[🎖️] Thanks To",
@@ -584,8 +582,6 @@ let usrs = db.data.users[m.sender]
   }
   }
   }
-  
-    let urls = pickRandom(['https://tinyurl.com/2j9wa2gm', 'https://a.uguu.se/HwyqVYow.jpg', 'https://a.uguu.se/pXdtYjF.jpg', 'https://a.uguu.se/RyffdQeq.jpg', 'https://a.uguu.se/OUpyWceD.jpg', 'https://a.uguu.se/eachYTbC.jpg', 'https://a.uguu.se/mzSokzVU.jpg'])
   
     const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png')
     
