@@ -55,7 +55,7 @@ handler.group = true
 handler.exp = 0
 handler.limit = true
 
-module.exports = handler
+export default handler
 
 async function shortlink(url) {
 isurl = /https?:\/\//.test(url)
