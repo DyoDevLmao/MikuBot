@@ -12,5 +12,5 @@ handler.command = /^kisahnabi$/i
 handler.register = false
 handler.limit = true
 
-module.exports = handler
+export default handler
                    
