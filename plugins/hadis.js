@@ -41,4 +41,4 @@ ${id}
 handler.help = ['hadis']
 handler.tags = ['islami']
 handler.command = /^(hadist?)$/i
-module.exports = handler
+export default handler
