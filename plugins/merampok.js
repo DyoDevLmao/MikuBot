@@ -27,7 +27,7 @@ handler.command = /^merampok$/
 handler.limit = true
 handler.group = true
 
-module.exports = handler
+export default handler
 
 function pickRandom(list) {
     return list[Math.floor(Math.random() * list.length)]
