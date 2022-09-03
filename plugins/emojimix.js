@@ -22,7 +22,7 @@ handler.help = ['emojimix']
 handler.tags = ['sticker']
 handler.command = /^(emojimix)$/i
 handler.limit = true 
-module.exports = handler
+export default handler
 
 
 const fetchJson = (url, options) => new Promise(async (resolve, reject) => {
