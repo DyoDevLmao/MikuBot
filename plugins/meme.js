@@ -8,4 +8,4 @@ handler.tags = ['fun']
 handler.command = /^(meme)$/i
 handler.limit = false
 
-module.exports = handler
+export default handler
