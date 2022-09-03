@@ -66,7 +66,7 @@ handler.command = /^(gro?upinfo|info(gro?up|gc))$/i
 
 handler.group = true
 
-module.exports = handler
+export default handler
 
 function msToDate(ms) {
 		temp = ms
