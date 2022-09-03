@@ -46,4 +46,4 @@ handler.group = true
 handler.register = true
 handler.limit = true
 
-module.exports = handler
+export default handler
