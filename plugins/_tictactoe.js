@@ -88,4 +88,4 @@ Room ID: ${room.id}
     return !0
 }
 
-module.exports = handler
+export default handler
