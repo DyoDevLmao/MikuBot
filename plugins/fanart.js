@@ -11,4 +11,4 @@ handler.tags = ['internet']
 handler.command = /^(fanart)$/i
 handler.limit = true
 //MADE IN ERPAN 1140 BERKOLABORASI DENGAN BTS
-module.exports = handler
+export default handler
