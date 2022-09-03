@@ -33,4 +33,4 @@ handler.help = ['absen']
 handler.tags = ['absen']
 handler.command = /^(absen|hadir)$/i
 handler.group = true
-module.exports = handler
+export default handler
