@@ -693,17 +693,7 @@ export async function participantsUpdate({ id, participants, action }) {
                                 groupname: await this.getName(id),
                                 membercount: groupMetadata.participants.length
                             })
-    conn.sendButtonDoc(id, text, wm, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'ImYanXiao', fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "-",
-    mediaType: 2, 
-    description: "-", 
-    title: 'Miku-MultiDevice',
-    body: wm,
-    thumbnail: await(await fetch(action === 'add' ? wel : lea)).buffer(),
-    sourceUrl: sgc
-     }}
-  })
-                    }
+                        }
                 }
             }
             break
