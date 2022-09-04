@@ -26,7 +26,7 @@ handler.tags = ['owner']
 handler.command = /^(prem)$/i
 handler.owner = true
 handler.fail = null
-module.exports = handler
+export default handler
 
 function msToDate(ms) {
   temp = ms
