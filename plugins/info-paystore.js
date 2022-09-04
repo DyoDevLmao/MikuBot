@@ -18,7 +18,7 @@ let info = `
 ┊⫹⫺ *Normal:* _${sn}k/grup (1 bulan)_
 ┊⫹⫺ *Standar:* _${ss}k/grup (2 bulan)_
 ┊⫹⫺ *Pro:* _${sp}k/grup (4 bulan)_                                                      
-┊⫹⫺ *Vip:* = _${sv}k/grup (12 bulan)_
+┊⫹⫺ *Vip:* = _${sv}k/grup (12 bulan/unlimited)_
 ╰═┅═━––––––๑
 
 ╭━━━━「 *PREMIUM* 」
