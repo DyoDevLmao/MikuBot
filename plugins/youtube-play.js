@@ -14,8 +14,10 @@ ${htjava} *Title:* ${title}
 👁️ *Views:* ${viewH}
 🔗 *Url:* ${url}
 📔 *Description:* ${description}
+  `.trim(), author, thumbnail, url, '📺Go To Youtube!', null, null, [
     ['Audio 🎧', `${usedPrefix}yta ${url} yes`],
     ['Video 🎥', `${usedPrefix}ytv ${url} yes`],
+    ['Youtube Search🔎', `${usedPrefix}yts ${url}`]
   ], m)
 } catch {
 if (!text) throw 'Input Query'
