@@ -30,13 +30,10 @@ ${htjava} *🧮 Kelas* : 11
 ${htjava} *🧩 Hobby* : Ngegame
 ${htjava} *💬 Sifat* : Tidak Ramah, Bilek, Prik,
 ${htjava} *🗺️ Tinggal* : Indo, madiun, Jawa Timur
-${htjava} *❤️ Suka* : kucing
-${htjava} *💔 Benci* : autis, seleb,
 
 ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
 ${htjava} *🇫  ғᴀᴄᴇʙᴏᴏᴋ* : Mitsuha
-${htjava} *🐈 ɢɪᴛʜᴜʙ:* ${sgh}
-•·––––––––––––––––––––––––––·•
+
 `
   let teks = 'Pilih dibawah kak ! o(〃＾▽＾〃)o'
 const sections = [
