@@ -13,25 +13,26 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 📮 *Note:*
 • Owner berhak blockir tanpa alasan
 • Berbicaralah yang sopan & tidak spam
-• No Telp nomer owner/bot 
+• No Telp
 
 //------------ BIO
 let ppown = 'https://telegra.ph/file/cce9ab4551f7150f1970d.jpg'
 let teksbio = `${htki} *BIODATA* ${htka}
 ${htjava} *💌 Nama* : Ryu
-${htjava} *✉️ Nama RL* : DyoMarselo
+${htjava} *✉️ Nama RL* : Dyo marselo
 ${htjava} *♂️ Gender* : Boys
 ${htjava} *🕋 Agama* : Islam
 ${htjava} *⏰ Tanggal lahir* : 20 February 2005
 ${htjava} *🎨 Umur* : 17
 ${htjava} *🧮 Kelas* : 11
-${htjava} *🧩 Hobby* : Ngegame
-${htjava} *💬 Sifat* : Tidak Ramah, Bilek, Prik,
-${htjava} *🗺️ Tinggal* : Indo, madiun, Jawa Timur
+${htjava} *🧩 Hobby* : Nonton Anim/film, ngegame, Musik,
+${htjava} *💬 Sifat* : Ramah, Bilek, Prik,
+${htjava} *🗺️ Tinggal* : Indo, Madiun, Jawa Timur
 
 ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
 ${htjava} *🇫  ғᴀᴄᴇʙᴏᴏᴋ* : Mitsuha
-
+${htjava} *🐈 ɢɪᴛʜᴜʙ:* ${sgh}
+•·––––––––––––––––––––––––––·•
 `
   let teks = 'Pilih dibawah kak ! o(〃＾▽＾〃)o'
 const sections = [
