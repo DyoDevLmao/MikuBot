@@ -10,8 +10,7 @@ m.reply(`
 │ *Hobby    :* 
 │ *Kelas      :* 
 │ *Asal         :* 
-│ *Agama    :* 
- |  *Status     :* 
+| *Tujuan join grub :*
 ╰═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙
 `.trim()) // Tambah sendiri kalo mau
 }
