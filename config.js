@@ -1,5 +1,5 @@
 // S C R I P T  O R I  B Y  Bochilgaming 🔭
-// Ditulis Ulang Oleh ImYanXiao
+// Ditulis Ulang Oleh DyoDev
 // Credits, jangan dihapus atau diubah!
 
 // - - THANKS TO - -
@@ -61,7 +61,7 @@ global.psaweria = '-' //Link Saweriamu Kalo Nggada Ketik - aja
 /*============== NOMOR ==============*/
 global.nomorbot = '6287759293568' //Nomor Bot
 global.nomorown = '6281228496899' //Nomor Owner
-global.namebot = 'Miku' //Nama Bot
+global.namebot = 'MikuBot' //Nama Bot
 global.nameown = 'DyoMarselo' // Nama Owner
 
 
@@ -103,7 +103,7 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 Miku-Bot 汉  」' //Main Watermark
+global.wm = ' 「 Miku-Bot 汉  」' //Main Watermark
 global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘Miku-chan˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
 global.wm3 = '⫹⫺ Miku 𝙱𝙾𝚃'
 global.botdate = `⫹⫺ 𝗛𝗮𝗿𝗶: ${week} ${date}`
@@ -153,12 +153,12 @@ global.dmenub2 = '┊' //body for info cmd on Default menu
 global.dmenuf = '┗––––––––––✦' //footer
 
 // COMMAND MENU
-global.dashmenu = '┅━━━═┅═❏ *ღ 𝘿𝘼𝙎𝙃𝘽𝙊𝘼𝙍𝘿 ღ* ❏═┅═━━━┅'
+global.dashmenu = '┅━━━═┅═❏ *• 𝘿𝘼𝙎𝙃𝘽𝙊𝘼𝙍𝘿 •* ❏═┅═━━━┅'
 global.cmenut = '❏––––––『'                       //top
 global.cmenuh = '』––––––'                        //header
 global.cmenub = '┊•'                            //body
-global.cmenuf = '┗━═┅═━––––––๑\n'                //footer
-global.cmenua = '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     ' //after
+global.cmenuf = '┗━═┅═━––––––•\n'                //footer
+global.cmenua = '\n⌕  ⌕\n     ' //after
 global.pmenus = '┊'                              //pembatas menu selector
 
 global.htki = '––––––『' // Hiasan Titile (KIRI)
