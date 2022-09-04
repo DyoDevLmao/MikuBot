@@ -39,6 +39,5 @@ handler.help = ['cekpacar']
 handler.tags = ['jadian']
 handler.command = /^(cekpacar)$/i
 handler.limit = true
-handler.group = true
 handler.fail = null
 export default handler
