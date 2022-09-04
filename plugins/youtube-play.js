@@ -28,8 +28,8 @@ let handler = async (m, { conn, command, usedPrefix, text, isPrems, isOwner }) =
 *${title}*
 *â‡„ã…¤     â—   ã…¤  âšâšã…¤     â–·ã…¤     â†»*
 
-*ðŸ“‚ukuran video:* ${filesizeF}
-*ðŸ‘‰ðŸ»Source:* ${vid.url}
+📂ukuran video:* ${filesizeF}
+🔎Source:* ${vid.url}
 *${isLimit ? 'Pakai ': ''}Link:* ${await shortlink(dl_link)}
 *Server y2mate:* ${usedServer}
 `.trim(), m)
@@ -48,7 +48,7 @@ if (!isLimit) conn.sendFile(m.chat, dl_link, title + '.mp' + (3 + /2$/.test(comm
 }
 handler.help = ['play', 'play2'].map(v => v + ' <search>')
 handler.tags = ['downloader']
-handler.command = /^play2?$/i
+handler.command = /^play?$/i
 handler.premium = false
 
 handler.exp = 0
