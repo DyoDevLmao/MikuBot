@@ -249,4 +249,4 @@ conn.sendButton(m.chat, 'Hello world!', '@BochilGaming', 'https://github.com/Boc
 * [`Papah-Chan`](https://github.com/FahriAdison) 
 
 ## ```Recode By ✏️```
-[![ImYanXiao](https://github.com/ImYanXiao.png?size=70)](https://github.com/ImYanXiao)
+[![Dyomarselo](https://github.com/ImYanXiao.png?size=70)](https://github.com/DyoDevLmao)
