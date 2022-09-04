@@ -1,6 +1,6 @@
 import fetch from 'node-fetch'
 let handler = async (m, { conn, command }) => {
-let res = await fetch(`https://api.lolhuman.xyz/api/random/ppcouple?apikey=apikeymu`)
+let res = await fetch(`https://api.lolhuman.xyz/api/random/ppcouple?apikey=1ca1bd3b7cfc97ed94da14f5`)
 if (res.status != 200) throw await res.text()
 let json = await res.json()
 if (!json.status) throw json
