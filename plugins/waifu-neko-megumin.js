@@ -37,7 +37,7 @@ default:
 
 handler.help = ['waifu', 'neko', 'megumin']
 handler.tags = ['random']
-handler.command = /^(waifu)$/i
+handler.command = /^(waifu|neko|megumin)$/i
 
 export default handler
 
