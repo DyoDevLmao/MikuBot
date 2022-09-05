@@ -532,7 +532,7 @@ export async function handler(chatUpdate) {
                 else
                     m.exp += xp
                 if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
-                    this.reply(m.chat, `[❗] Limit anda habis, beli melalui *${usedPrefix}buy limit*`, m)
+                    this.reply(m.chat, `[❗] Limit kau abis dek, beli melalui *${usedPrefix}buy limit*`, m)
                     continue // Limit habis
                 }
                 if (plugin.level > _user.level) {
@@ -679,24 +679,24 @@ export async function participantsUpdate({ id, participants, action }) {
                     } finally {
                         text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || 'unknow') :
                             (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@user', `${this.getName(user)}`)
-                        let wel = API('hardianto', '/api/welcome2', {
+                        let wel = API('hardianto', '/welcome2', {
                                 profile: pp,
                                 username: await this.getName(user),
                                 background: 'https://telegra.ph/file/0b814069d86ee9a022da5.jpg',
                                 groupname: await this.getName(id),
                                 membercount: groupMetadata.participants.length
                             })
-                            let lea = API('hardianto', '/api/goodbye3', {
+                            let lea = API('hardianto', '/goodbye3', {
                                 profile: pp,
                                 username: await this.getName(user),
                                 background: 'https://telegra.ph/file/0db212539fe8a014017e3.jpg',
                                 groupname: await this.getName(id),
                                 membercount: groupMetadata.participants.length
                             })
-    conn.sendButtonDoc(id, text, wm, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'MikuBot', { contextInfo: { externalAdReply: { showAdAttribution: true,
+    conn.sendButtonDoc(id, text, wm, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'MikuBot', fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: "https://telegra.ph/file/f92e7cc9b308527318726.jpg",
     mediaType: 2, 
-    description: "https://telegra.ph/file/f92e7cc9b308527318726.jpg", 
+    description: "https://telegra.ph/file/20a60b7a87366ac9016a0.jpg", 
     title: 'Miku-MultiDevice',
     body: wm,
     thumbnail: await(await fetch(action === 'add' ? wel : lea)).buffer(),
