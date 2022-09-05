@@ -11,23 +11,27 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 ------- ${nameown} -------
 
 📮 *Note:*
+• Owner tidak menerima save contact
 • Owner berhak blockir tanpa alasan
 • Berbicaralah yang sopan & tidak spam
-• No Telp
+• Owner Hanya merespon yang berkaitan dengan BOT
+• No Telp`
 
 //------------ BIO
 let ppown = 'https://telegra.ph/file/cce9ab4551f7150f1970d.jpg'
 let teksbio = `${htki} *BIODATA* ${htka}
-${htjava} *💌 Nama* : Ryu
-${htjava} *✉️ Nama RL* : Dyo marselo
+${htjava} *💌 Nama* : ryu
+${htjava} *✉️ Nama RL* : Rahasia🗿
 ${htjava} *♂️ Gender* : Boys
 ${htjava} *🕋 Agama* : Islam
 ${htjava} *⏰ Tanggal lahir* : 20 February 2005
 ${htjava} *🎨 Umur* : 17
 ${htjava} *🧮 Kelas* : 11
-${htjava} *🧩 Hobby* : Nonton Anim/film, ngegame, Musik,
-${htjava} *💬 Sifat* : Ramah, Bilek, Prik,
-${htjava} *🗺️ Tinggal* : Indo, Madiun, Jawa Timur
+${htjava} *🧩 Hobby* : Nonton Donghua, Chatting, Musik, Recode script bot
+${htjava} *💬 Sifat* : prik,bilek
+${htjava} *🗺️ Tinggal* : Indo, madiun, Jawa Timur
+${htjava} *❤️ Suka* : kadal
+${htjava} *💔 Benci* : autis,seleb
 
 ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
 ${htjava} *🇫  ғᴀᴄᴇʙᴏᴏᴋ* : Mitsuha
