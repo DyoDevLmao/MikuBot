@@ -697,7 +697,7 @@ export async function participantsUpdate({ id, participants, action }) {
     mediaUrl: "https://youtu.be/-TleC8rbDT8",
     mediaType: 2, 
     description: "https://youtu.be/-TleC8rbDT8", 
-    title: 'Elaina-MultiDevice',
+    title: 'Miku-MultiDevice',
     body: wm,
     thumbnail: await(await fetch(action === 'add' ? wel : lea)).buffer(),
     sourceUrl: sgc
