@@ -1,28 +1,17 @@
-let { promisify } = require('util')
-let _gis = require('g-i-s')
-let gis = promisify(_gis)
-
-let handler  = async (m, { conn, args, text }) => {
-  if (!text) throw 'Cari apa?'
-  let results = await gis(text) || []
-  let { url, width, height } = pickRandom(results) || {}
-  if (!url) throw '404 Not Found'
-  conn.sendFile(m.chat, url, 'gimage', `
-*── 「 GOOGLE IMAGE 」 ──*
-
-${text}
-➸ *width*: ${width}
-➸ *height*: ${height}
-`.trim(), m)
+import { googleImage } from '@bochilteam/scraper'
+let handler = async (m, { conn, text, usedPrefix, command }) => {
+    if (!text) throw `Use example ${usedPrefix}${command} Minecraft`
+    const res = await googleImage(text)
+    let image = res.getRandom()
+    let link = image
+    conn.sendHydrated(m.chat,`
+*${htki} GOOGLE IMAGE ${htka}*
+🔎 *Result:* ${text}
+📎 *Source:* Google
+`, wm, link, link, 📂— URL', null, null, [['Next', `.image ${text}`],[null,null],[null,null]],m)
 }
-handler.help = ['gimage <search>']
-handler.tags = ['internet']
+handler.help = ['gimage <query>', 'image <query>']
+handler.tags = ['internet', 'tools']
 handler.command = /^(gimage|image)$/i
-handler.limit = true
-handler.premium = false
 
 export default handler
-
-function pickRandom(arr) {
-  return arr[Math.floor(Math.random() * arr.length)]
-}
