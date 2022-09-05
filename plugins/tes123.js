@@ -22,7 +22,7 @@ conn.reply(m.chat, info, m,{ contextInfo: { externalAdReply: { showAdAttribution
 
 }
 
-handler.customPrefix = /^(tes|bot|elaina)$/i
+handler.customPrefix = /^(tes|bot|miku)$/i
 
 handler.command = new RegExp
 
