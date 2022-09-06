@@ -3,7 +3,7 @@ import fetch from 'node-fetch'
 import { youtubedl, youtubedlv2, youtubedlv3 } from '@bochilteam/scraper';
 let handler = async (m, { conn, args, isPrems, isOwner }) => {
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-let pp = await conn.profilePictureUrl(who).catch(_ => hwaifu.getRandom())
+let pp = await conn.profilePictureUrl(who).catch(_ => waifu.getRandom())
 let name = await conn.getName(who)
 
   if (!args || !args[0]) throw 'Uhm... urlnya mana?'
