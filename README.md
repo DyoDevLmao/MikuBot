@@ -1,9 +1,9 @@
 
 ## CATATAN
-Script ini untuk semua orang, bukan untuk Dijual. Jika dijual neraka menunggumu kakak !
+Script ini untuk semua orang,bukan untuk Dijual!
 
 <p align="center">
-    <img src="https://telegra.ph/file/37df69a78afb6e010282d.jpg" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
+    <img src="https://telegra.ph/file/80f5fac80c1738c57e82d.jpg" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
 </p>
 <h1 align="center">MikuBOT - MD</h1>
 <p align="center">
