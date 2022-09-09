@@ -17,7 +17,7 @@ handler.help = ['angka <0-9>']
 handler.tags = ['game']
 handler.command = /^angka/i
 
-module.exports = handler
+export default handler
 
 function pickRandom(list) {
     return list[Math.floor(Math.random() * list.length)]
