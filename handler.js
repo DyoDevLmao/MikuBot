@@ -694,9 +694,9 @@ export async function participantsUpdate({ id, participants, action }) {
                                 membercount: groupMetadata.participants.length
                             })
     conn.sendButtonDoc(id, text, wm, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'MikuBot', fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://telegra.ph/file/f92e7cc9b308527318726.jpg",
+    mediaUrl: "https://youtu.be/z7CnIE52BX0",
     mediaType: 2, 
-    description: "https://telegra.ph/file/20a60b7a87366ac9016a0.jpg", 
+    description: "https://youtu.be/z7CnIE52BX0", 
     title: 'Miku-MultiDevice',
     body: wm,
     thumbnail: await(await fetch(action === 'add' ? wel : lea)).buffer(),
