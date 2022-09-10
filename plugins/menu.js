@@ -1,7 +1,4 @@
-// Script Ori By BochilGaming
-// Ditulis Ulang Oleh ImYanXiao
-// Cara Ganti Menu? Hilangin Tanda // 
-// Lalu Ganti Ke Menu Sebelumnya
+
 
 import { promises } from 'fs'
 import { join } from 'path'
@@ -99,6 +96,9 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
   }
   if (teks == 'anime') tags = {
     'anime': 'Anime'
+  }
+  if (teks == 'nsfw') tags = {
+    'nsfw': 'Nsfw'
   }
   if (teks == 'rpg') tags = {
     'rpg': 'Rpg'
@@ -271,20 +271,21 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 	title: `${htki} ᴍᴇɴᴜ ${htka}`,
 	rows: [
 	    {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
-	    {title: `🌱 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Rpg!"},
+	    {title: `🌱 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
 	{title: `✨ ${pmenus} Exp`, rowId: ".? xp", description: "Ayo tingkatkan pangkat mu!"},
 	{title: `🎮 ${pmenus} Game`, rowId: ".? game", description: "Gamenya seru seru lho (๑˃̵　ᴗ　˂̵)"},
-	{title: `🧩 ${pmenus} Fun`, rowId: ".? fun", description: "Fitur FamilyFrendly"},
+	{title: `🧩 ${pmenus} Fun`, rowId: ".? fun", description: "Fitur yang aman untuk keluarga"},
 	{title: `🐚 ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Tanyakan pada ketua club"},
 	{title: `📑 ${pmenus} Quotes`, rowId: ".? quotes", description: "Random Inspirasi"},
-	{title: `⛩️ ${pmenus} Anime`, rowId: ".? anime", description: "lu wibu bang"},
+	{title: `⛩️ ${pmenus} Anime`, rowId: ".? anime", description: "Wibu wibu🐦"},
+	{title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, dasar sagnean"},
 	{title: `🌟 ${pmenus} Premium`, rowId: ".? premium", description: "Untuk user premium"},
 	{title: `🎭 ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Bicara dengan orang tidak dikenal"},
-	{title: `📖 ${pmenus} Al-Quran`, rowId: ".? quran", description: "Tobat yuk"},
+	{title: `📖 ${pmenus} Al-Quran`, rowId: ".? quran", description: "Tobat yuk kak"},
 	{title: `🌎 ${pmenus} Internet`, rowId: ".? internet", description: "Cari sesuatu diBOT"},
 	{title: `📩 ${pmenus} Downloaders`, rowId: ".? downloader", description: "Download sesuatu dari BOT"},
 	{title: `🎨 ${pmenus} Stikers`, rowId: ".? stiker", description: "Buat Sticker diBOT"},
-	{title: `✏️ ${pmenus} Nulis`, rowId: ".? nulis", description: "Nulis kok males"},
+	{title: `✏️ ${pmenus} Nulis`, rowId: ".? nulis", description: "Nulis kok males kak?"},
 	{title: `🎧 ${pmenus} Audio`, rowId: ".? audio", description: "Ubah Audio dengan Filter"},
 	{title: `🏢 ${pmenus} Group`, rowId: ".? group", description: "Only Groups"},
 	{title: `👑 ${pmenus} Admin`, rowId: ".? admin", description: "Only Admin Group"},
@@ -319,7 +320,7 @@ let usrs = db.data.users[m.sender]
 ┴ ▸ *ᴏᴡɴᴇʀ :* DyoMarselo
 ✧
 ┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
-│ jangan spam yah kak ^ω^
+│ ʙᴇʀɪ ᴊᴇᴅᴀ ʏᴀʜ ᴋᴀᴋ ^ω^
 ╰━━━━━━━━━━━━━━━━┈─◂
      ▌│█║▌║▌║║▌║▌║█│▌
      
@@ -363,6 +364,10 @@ let usrs = db.data.users[m.sender]
                   "title": "Menu 05 |🧩|",
                   "description": "Fun",
                   "rowId": ".? fun"
+                }, {
+                  "title": "Menu 07 |🔞|",
+                  "description": "Nsfw",
+                  "rowId": ".? nsfw"
                 }, {
                   "title": "Menu 08 |⛩️|",
                   "description": "Anime",
@@ -512,7 +517,7 @@ let usrs = db.data.users[m.sender]
       before,
       ...Object.keys(tags).map(tag => {
         return header.replace(/%category/g, tags[tag]) + '\n' + [
-          ...help.filter(menu => menu.tags && menu.includes(tag) && menu.help).map(menu => {
+          ...help.filter(menu => menu.tags && menu.tags.includes(tag) && menu.help).map(menu => {
             return menu.help.map(help => {
               return body.replace(/%cmd/g, menu.prefix ? help : '%_p' + help)
                 .replace(/%islimit/g, menu.limit ? llim : '')
@@ -748,7 +753,7 @@ let usrs = db.data.users[m.sender]
                 {
                     urlButton: {
                         displayText: `${namebot}`,
-                        url: 'https://github.com/DyoDevLmao/ElainaBot'
+                        url: 'https://github.com/ImYanXiao/Elaina-MultiDevice'
                     }
                 },
                 {
@@ -829,16 +834,16 @@ function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   let res = "Kok Belum Tidur Kak? 🥱"
   if (time >= 4) {
-    res = "Pagi Kak 🌄"
+    res = "Pagi kak 🌄"
   }
   if (time >= 10) {
-    res = "Siang Kak ☀️"
+    res = "Siang kak ☀️"
   }
   if (time >= 15) {
-    res = "Sore Kak 🌇"
+    res = "Sore kak 🌇"
   }
   if (time >= 18) {
-    res = "Malam Kak 🌙"
+    res = "Malam kak 🌙"
   }
   return res
 }
