@@ -5,20 +5,12 @@ import fetch from 'node-fetch'
 let handler  = async (m, { conn, usedPrefix: _p }) => {
 
 let info = `Miku Disini (｡>_<｡)`
-
+let res = await fetch('https://telegra.ph/file/15fad2458c84ab50913a3.jpg')
 
 
 let td = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
 
 
-conn.reply(m.chat, info, m,{ contextInfo: { externalAdReply: { showAdAttribution: true,
-      mediaUrl: "https://Instagram.com/Xiao_yan_21",
-      mediaType: 2,
-      description: "https://Instagram.com/Xiao_yan_21", 
-      title: global.titlebot,
-      body: wm,
-      thumbnail: thumb,
-      sourceUrl: sig  }}})
 
 }
 
