@@ -1,6 +1,4 @@
 
-*/
-
 let fetch = require('node-fetch')
 let handler = async (m, { text }) => {
   let url = await fetch('https://masgi.herokuapp.com/api/cerpen')
