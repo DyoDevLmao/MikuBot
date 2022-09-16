@@ -58,7 +58,7 @@ https://github.com/FahriAdison
 https://github.com/DyoDevLmao
 *▸ - - - —「 Thanks For Suhu 」— - - - ◂*
 *❉ Kannachan:*
-*❉ The.sadboy.01
+*❉ The.sadboy.01*
 *❉ Papah-Chan:*
 *❉ Johannes:*
 *❉ Krisna:*
@@ -66,10 +66,10 @@ https://github.com/DyoDevLmao
 
 `
 conn.sendButtonDoc(m.chat, tqto, wm,'Thanks','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/Xiao_yan_21",
+    mediaUrl: "https://Instagram.com/diavolo_fushiguro",
     mediaType: "VIDEO",
-    description: "https://Instagram.com/Xiao_yan_21", 
-    title: 'Elaina-MultiDevice',
+    description: "https://Instagram.com/diavolo_fushiguro", 
+    title: 'Miku-MultiDevice',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sgc
