@@ -8,7 +8,7 @@ let wibu = `https://api.dhamzxploit.my.id/api/neko`
 let thumb = await(await fetch(wibu)).buffer()
 user.afk = + new Date
 user.afkReason = text
- conn.sendButtonDoc(m.chat, `${conn.getName(m.sender)} is now AFK${text ? ': ' + text : ''}`, wm, 'ᴊᴀɴɢᴀɴ ᴅɪɢᴀɴɢɢᴜ', 'Bilek', m,  { contextInfo: { externalAdReply: { showAdAttribution: true,
+ conn.sendButton(m.chat, `${conn.getName(m.sender)} is now AFK${text ? ': ' + text : ''}`, wm, 'ᴊᴀɴɢᴀɴ ᴅɪɢᴀɴɢɢᴜ', 'Bilek', m,  { contextInfo: { externalAdReply: { showAdAttribution: true,
         thumbnail: thumb,
     }
     } })
