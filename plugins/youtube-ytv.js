@@ -51,7 +51,7 @@ handler.tags = ['downloader']
 handler.command = /^yt(v|mp4)?$/i
 
 handler.exp = 0
-handler.register = false
+handler.register = true
 handler.limit = false
 
 
