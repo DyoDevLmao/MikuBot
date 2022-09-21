@@ -13,7 +13,7 @@ let handler = async (m, { conn, args }) => {
                }
            )
   let res = `https://api.xteam.xyz/randomimage/mstrb?apikey=MIMINETBOT`
-  conn.sendFile(m.chat, res, 'mstrb.jpg', mess.sukses, m, false)
+  conn.sendFile(m.chat, res, 'mstrb.url', mess.sukses, m, false)
 }
 handler.help = ['mstrb'].map(v => v + ' ')
 handler.tags = ['dewasa']
