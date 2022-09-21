@@ -1,4 +1,4 @@
-let fetch = require('node-fetch')
+import fetch from 'node-fetch'
 
 let timeout = 180000
 let poin = 500
@@ -31,6 +31,6 @@ handler.help = ['tekateki']
 handler.tags = ['game']
 handler.command = /^tekateki/i
 handler.limit = true
-handler.group = true
+handler.group = false
 
 export default handler
