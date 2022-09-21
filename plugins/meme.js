@@ -1,6 +1,5 @@
 //created by Scooppt
-let fetch = require('node-fetch')
-
+import fetch from 'node-fetch'
 let handler  = async (m, { conn, text }) => {
  try {
     let res = await fetch('https://meme-api.herokuapp.com/gimme')
