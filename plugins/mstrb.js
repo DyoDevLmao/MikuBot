@@ -1,4 +1,4 @@
-let fetch = require('node-fetch')
+import fetch from 'node-fetch'
 let handler = async (m, { conn, args }) => {
    response = args.join(' ')
   if (!args) throw 'Masukkan Parameter'
@@ -31,4 +31,4 @@ handler.botAdmin = false
 handler.fail = null
 handler.limit = true
 
-module.exports = handler
+export default handler 
