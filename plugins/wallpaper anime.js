@@ -1,5 +1,5 @@
 const { MessageType } = require('@adiwajshing/baileys')
-const fetch = require('node-fetch')
+import fetch from 'node-fetch'
 
 let handler = async (m, { conn }) => {
     try {
