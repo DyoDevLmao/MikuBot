@@ -1,4 +1,4 @@
-
+import fetch from 'node-fetch'
 let handler = async (m, { text }) => {
   if (!text) return m.reply('Mimpi apa? ')
   let res = await fetch(global.API('bg',  '/artimimpi', { mimpi: text }))
