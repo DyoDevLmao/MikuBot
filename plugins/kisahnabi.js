@@ -1,4 +1,4 @@
-let fetch = require('node-fetch')
+import fetch from 'node-fetch'
 let handler = async (m, { text, usedPrefix, command }) => {
      if (!text) throw `Masukan nama nabi\nExample: ${usedPrefix + command} adam`
      let url = await fetch(`https://raw.githubusercontent.com/ZeroChanBot/Api-Freee/a9da6483809a1fbf164cdf1dfbfc6a17f2814577/data/kisahNabi/${text}.json`)
