@@ -8,5 +8,5 @@ handler.command = /^(fanart)$/i
 handler.tags = ['anime']
 handler.help = ['fanart']
 handler.limit = true
-handler.premium = true
+handler.premium = false
 export default handler
