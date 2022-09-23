@@ -1,4 +1,5 @@
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
+let qr = 'https://telegra.ph/file/3807802b9012e2b47aaba.jpg'
 let text = `
 ┌─「 Donasi • Pulsa 」
 │ • *telkomsel:* [${global.ppulsa}]
