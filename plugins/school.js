@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
 
 let handler = async (m, { conn, command }) => {
-	let url = 'https://api.akuari.my.id/randomimganime/akaneko?param=masturbation'
+	let url = 'https://api.akuari.my.id/randomimganime/akaneko?param=school'
 	conn.sendButton(m.chat, '🔞ahhhh>///<', wm, await(await fetch(url)).buffer(), [['Next',`.${command}`]],m)
 }
 handler.command = /^(school)$/i
