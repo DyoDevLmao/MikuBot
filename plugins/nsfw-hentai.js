@@ -1,13 +1,11 @@
 import fetch from 'node-fetch'
 
-let handler = async (m, { conn, text }) => {
-let res = await fetch('https://api.akuari.my.id/randomimganime/akaneko?param=hentai')
-if (!res.ok) throw await `${res.status} ${res.statusText}`;
-let json = await res.json();
-let url = json[Math.floor(Math.random() * json.length)]
-await conn.sendButtonImg(m.chat, await (await fetch(url)).buffer(), '🔞', 'Next', '.hentai', m)
+let handler = async (m, { conn, command }) => {
+	let url = 'https://api.akuari.my.id/randomimganime/akaneko?param=hentai'
+	conn.sendButton(m.chat, '🔞Dasar sangean', wm, await(await fetch(url)).buffer(), [['Next',`.${command}`]],m)
 }
 handler.command = /^(hentai)$/i
 handler.tags = ['nsfw']
 handler.help = ['hentai']
+handler.limit = true
 export default handler
