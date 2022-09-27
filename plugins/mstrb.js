@@ -1,34 +1,11 @@
 import fetch from 'node-fetch'
-let handler = async (m, { conn, args }) => {
-   response = args.join(' ')
-  if (!args) throw 'Masukkan Parameter'
-  await conn.reply(m.chat, mess.wait, 0, { thumbnail: await(await fetch(ext.thum)).buffer(), contextInfo: {
-                  externalAdReply: {
-                    mediaUrl: 'https://youtu.be/-tKVN2mAKRI',
-                    title: ext.title,
-                    body: ext.body,
-                    thumbnail: await(await fetch(ext.thum)).buffer()
-                   }
-                 }
-               }
-           )
-  let res = `https://api.xteam.xyz/randomimage/mstrb?apikey=MIMINETBOT`
-  conn.sendFile(m.chat, res, 'mstrb.url', mess.sukses, m, false)
+
+let handler = async (m, { conn, command }) => {
+	let url = 'https://api.akuari.my.id/randomimganime/akaneko?param=masturbation'
+	conn.sendButton(m.chat, '🔞ahhhh>///<', wm, await(await fetch(url)).buffer(), [['Next',`.${command}`]],m)
 }
-handler.help = ['mstrb'].map(v => v + ' ')
-handler.tags = ['dewasa']
-
-handler.command = /^(mstrb)$/i
-handler.owner = true
-handler.mods = false
-handler.premium = true
-handler.group = false
-handler.private = true
-
-handler.admin = false
-handler.botAdmin = false
-
-handler.fail = null
+handler.command = /^(masturbation)$/i
+handler.tags = ['nsfw']
+handler.help = ['masturbation']
 handler.limit = true
-
-export default handler 
+export default handler
