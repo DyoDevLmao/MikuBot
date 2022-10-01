@@ -693,7 +693,12 @@ export async function participantsUpdate({ id, participants, action }) {
                                 groupname: await this.getName(id),
                                 membercount: groupMetadata.participants.length
                             })
-    conn.sendButton(id, text, wm, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'ImDio', { contextInfo: { externalAdReply: { showAdAttribution: false,
+    conn.sendButton(id, text, wm, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'DyoMY', { contextInfo: { externalAdReply: { showAdAttribution: false,
+    mediaUrl: "https://youtu.be/z7CnIE52BX0",
+    mediaType: 2, 
+    description: "https://youtu.be/z7CnIE52BX0", 
+    title: 'MikuBot-MD',
+    body: wm,
     thumbnail: await(await fetch(action === 'add' ? wel : lea)).buffer(),
     sourceUrl: sgc
      }}
