@@ -532,7 +532,7 @@ export async function handler(chatUpdate) {
                 else
                     m.exp += xp
                 if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
-                    this.reply(m.chat, `[❗] Limit mu habis, beli melalui *${usedPrefix}buy limit*`, m)
+                    this.reply(m.chat, `[❗] Limit kau abis dek, beli melalui *${usedPrefix}buy limit*`, m)
                     continue // Limit habis
                 }
                 if (plugin.level > _user.level) {
@@ -679,21 +679,21 @@ export async function participantsUpdate({ id, participants, action }) {
                     } finally {
                         text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || 'unknow') :
                             (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@user', `${this.getName(user)}`)
-                        let wel = API('hardianto', '/welcome2', {
+                        let wel = API('males', '/welcome2', {
                                 profile: pp,
                                 username: await this.getName(user),
                                 background: 'https://telegra.ph/file/0b814069d86ee9a022da5.jpg',
                                 groupname: await this.getName(id),
                                 membercount: groupMetadata.participants.length
                             })
-                            let lea = API('hardianto', '/goodbye3', {
+                            let lea = API('males', '/goodbye3', {
                                 profile: pp,
                                 username: await this.getName(user),
                                 background: 'https://telegra.ph/file/0db212539fe8a014017e3.jpg',
                                 groupname: await this.getName(id),
                                 membercount: groupMetadata.participants.length
                             })
-    conn.sendButtonDoc(id, text, wm, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'MikuBot', fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true,
+    conn.sendButtonDoc(id, text, wm, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'ImYanXiao', fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: "https://youtu.be/z7CnIE52BX0",
     mediaType: 2, 
     description: "https://youtu.be/z7CnIE52BX0", 
