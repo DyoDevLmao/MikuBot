@@ -700,9 +700,10 @@ export async function participantsUpdate({ id, participants, action }) {
     title: 'Elaina-MultiDevice',
     body: wm,
     thumbnail: await(await fetch(action === 'add' ? wel : lea)).buffer(),
-    sourceUrl: sgc
+    sourceurl: sgc
      }}*\
-  })
+
+  }}
                    }
                   }
                 }
