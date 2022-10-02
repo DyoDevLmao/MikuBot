@@ -703,7 +703,8 @@ export async function participantsUpdate({ id, participants, action }) {
     sourceUrl: sgc
      }}*\
   })
-                    }
+                   }
+                  }
                 }
             }
             break
