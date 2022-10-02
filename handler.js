@@ -693,13 +693,16 @@ export async function participantsUpdate({ id, participants, action }) {
                                 groupname: await this.getName(id),
                                 membercount: groupMetadata.participants.length
                             })
-        conn.sendButtonImg(id, text, wm, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'ImDyo', fkontak, { contextInfo: { externalAdReply: { showAdAttribution: false,
-    mediaUrl: "https://youtu.be/-TleC8rbDT8",
+  let welcom = 'https://telegra.ph/file/35f17bb371d308504bc46.jpg'
+
+  let godbye = 'https://telegra.ph/file/b44e48066aed4fb7ad291.jpg'
+  conn.sendButtonImg(id, await(await fetch(action === 'add' ? wel : lea)).buffer(), text, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'DyoDev', fkontak, { contextInfo: { externalAdReply: { showAdAttribution: false,
+    mediaUrl: 'https://youtu.be/-TleC8rbDT8',
     mediaType: 2, 
-    description: "https://youtu.be/-TleC8rbDT8", 
-    title: 'Miku-MultiDevice',
+    description: sgc,
+    title: "Miku-MultiDevice",
     body: wm,
-    thumbnail: await(await fetch(action === 'add' ? wel : lea)).buffer(),
+    thumbnail: await(await fetch(action === 'add' ? welcom : godbye)).buffer(),
     sourceUrl: sgc
      }}
   })
