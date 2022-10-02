@@ -701,8 +701,8 @@ export async function participantsUpdate({ id, participants, action }) {
     body: wm,
     thumbnail: await(await fetch(action === 'add' ? wel : lea)).buffer(),
     sourceUrl: sgc
-     }}
-  })*\
+     }}*\
+  })
                     }
                 }
             }
