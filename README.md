@@ -38,28 +38,28 @@ Script ini untuk semua orang,bukan untuk Dijual!,hapus dulu session lama trus ga
 #### KELEBIHAN 🪄
 | Kelebihan | Check |
 |--------|--------|
-| **Fast Respon** |[✔️](https://github.com/ImYanXiao) |
-| **Simple** |[✔️](https://github.com/ImYanXiao) |
-| **Button Template** |[✔️](https://github.com/ImYanXiao) |
-| **Multi Device** |[✔️](https://github.com/ImYanXiao) |
-| **Button Document** |[✔️](https://github.com/ImYanXiao) |
+| **Fast Respon** |[✔️](https://github.com/DyoDevLmao) |
+| **Simple** |[✔️](https://github.com/DyoDevLmao) |
+| **Button Template** |[✔️](https://github.com/DyoDevLmao) |
+| **Multi Device** |[✔️](https://github.com/DyoDevLmao) |
+| **Button Document** |[✔️](https://github.com/DyoDevLmao) |
 ---------
 #### FITUR 🎀
 | Fitur | Check |
 |--------|--------|
-| **Downloader** |[✔️](https://github.com/ImYanXiao) |
-| **Internet** |[✔️](https://github.com/ImYanXiao) |
-| **Game Rpg** |[✔️](https://github.com/ImYanXiao) |
-| **Nsfw** |[✔️](https://github.com/ImYanXiao) |
-| **Sticker** |[✔️](https://github.com/ImYanXiao) |
-| **Game** |[✔️](https://github.com/ImYanXiao) |
-| **Kerang Ajaib** |[✔️](https://github.com/ImYanXiao) |
-| **Quotes** |[✔️](https://github.com/ImYanXiao) |
-| **Anime** |[✔️](https://github.com/ImYanXiao) |
-| **Premium** |[✔️](https://github.com/ImYanXiao) |
-| **Tools** |[✔️](https://github.com/ImYanXiao) |
-| **Exec** |[✔️](https://github.com/ImYanXiao) |
-| **React** |[✔️](https://github.com/ImYanXiao) |
+| **Downloader** |[✔️](https://github.com/DyoDevLmao) |
+| **Internet** |[✔️](https://github.com/DyoDevLmao) |
+| **Game Rpg** |[✔️](https://github.com/DyoDevLmao) |
+| **Nsfw** |[✔️](https://github.com/DyoDevLmao) |
+| **Sticker** |[✔️](https://github.com/DyoDevLmao) |
+| **Game** |[✔️](https://github.com/DyoDevLmao) |
+| **Kerang Ajaib** |[✔️](https://github.com/DyoDevLmao) |
+| **Quotes** |[✔️](https://github.com/DyoDevLmao) |
+| **Anime** |[✔️](https://github.com/DyoDevLmao) |
+| **Premium** |[✔️](https://github.com/DyoDevLmao) |
+| **Tools** |[✔️](https://github.com/DyoDevLmao) |
+| **Exec** |[✔️](https://github.com/DyoDevLmao) |
+| **React** |[✔️](https://github.com/DyoDevLmao) |
 ---------
 
 ## `SETTING`
@@ -80,7 +80,7 @@ Script ini untuk semua orang,bukan untuk Dijual!,hapus dulu session lama trus ga
 ## TERMUX USER
 ```bash
 $ pkg upgrade && pkg update
-$ pkg install git -y
+$ pkg install git -y 
 $ pkg install nodejs -y
 $ pkg install ffmpeg -y
 $ pkg install imagemagick -y
