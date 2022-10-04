@@ -1,6 +1,6 @@
 
 ## CATATAN
-Script ini untuk semua orang,bukan untuk Dijual!
+Script ini untuk semua orang,bukan untuk Dijual!,hapus dulu session lama trus ganti pake session lu sendiri
 
 <p align="center">
     <img src="https://telegra.ph/file/80f5fac80c1738c57e82d.jpg" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
