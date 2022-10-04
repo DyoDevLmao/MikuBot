@@ -127,8 +127,8 @@ apt install wget curl git ffmpeg imagemagick build-essential libcairo2-dev libpa
 ubuntu
 curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
 apt install -y nodejs gcc g++ make
-git clone https://github.com/ImYanXiao/Elaina-MultiDevice
-cd Elaina-MultiDevice
+git clone https://github.com/DyoDevLmao/ElainaBot
+cd ElainaBot
 npm install
 npm update
 ```
@@ -143,8 +143,8 @@ npm update
 * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/ImYanXiao/Elaina-MultiDevice
-cd Elaina-MultiDevice
+git clone https://github.com/DyoDevLmao/ElainaBot
+cd ElainaBot
 npm install
 npm update
 ```
@@ -236,11 +236,11 @@ conn.sendButton(m.chat, 'Hello world!', '@BochilGaming', 'https://github.com/Boc
 ---------
 
 ## ```Thanks to ✨```
-* [`Allah SWT`](https://github.com/ImYanXiao)
-* [`My parents`](https://github.com/ImYanXiao)
-* [`All Friends`](https://github.com/ImYanXiao)
-* [`All Contributors`](https://github.com/ImYanXiao)
-* [`All Creator Bot`](https://github.com/ImYanXiao)
+* [`Allah SWT`](https://github.com/DyoDevLmao)
+* [`My parents`](https://github.com/DyoDevLmao)
+* [`All Friends`](https://github.com/DyoDevLmao)
+* [`All Contributors`](https://github.com/DyoDevLmao)
+* [`All Creator Bot`](https://github.com/DyoDevLmao)
 * [`Adiwajshing`](https://github.com/adiwajshing/Baileys)
 * [`Nurutomo`](https://github.com/nurutomi)
 * [`BochilGaming`](https://github.com/bochilgaming)
@@ -249,4 +249,4 @@ conn.sendButton(m.chat, 'Hello world!', '@BochilGaming', 'https://github.com/Boc
 * [`Papah-Chan`](https://github.com/FahriAdison) 
 
 ## ```Recode By ✏️```
-[![Dyomarselo](https://github.com/ImYanXiao.png?size=70)](https://github.com/DyoDevLmao)
+[![Dyomarselo](https://github.com/DyoDevLmao.png?size=70)](https://github.com/DyoDevLmao)
