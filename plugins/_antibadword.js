@@ -10,12 +10,14 @@ handler.before = function (m, { isOwner, isAdmin, isBotAdmin }) {
 
     if (!chat.antiBadword && !chat.isBanned && !user.banned && isBadword && !isOwner && !isAdmin) {
         user.warning += 1
-        this.send2Button(m.chat, `*Toxic terdeteksi terdeteksi!*
+        this.send2Button(m.chat, `*badword terdeteksi!*
 Warning: ${user.warning} / 10
 Jika warning mencapai 10 kamu akan *dibanned+kick*
 
+ketik *.on antibadword* untuk menyalakan antibadword
+ketik *.maaf* untuk mengurangi warning
 
-“Jangan Toxic!".`, wm, 'MATIKAN ANTIBADWORD', '.off antibadword', '.maaf', m)
+“Jangan toxic!”, wm, 'MATIKAN ANTIBADWORD', '.off antibadword', 'ASTAGHFIRULLAH', '.maaf', m)
         if (user.warning >= 10) {
             user.banned = true
             if (m.isGroup) {
@@ -26,11 +28,6 @@ Jika warning mencapai 10 kamu akan *dibanned+kick*
             }
         }
     }
-  }
-  return true
+    return !0
 }
-
-export const disable = true
-
-const more = String.fromCharCode(8206)
-const readMore = more.repeat(4001)
+Export default handler 
