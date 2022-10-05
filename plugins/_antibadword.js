@@ -1,16 +1,23 @@
-let handler = async (m, { conn, text }) => {
-    let name = m.fromMe ? conn.user : conn.contacts[m.sender]
+let handler = m => m
 
-  conn.reply(m.chat, `
-*「 ANTI TOXIC 」*
-Pengirim : ${name.vnmae || name.notify || name.name || ('+' + name.jid.split`@`[0])}
-Pesan : ${m.text}
-Biasakan Jangan Toxic ya! :)
-`.trim(), m)
-    let mentionedJid = [m.sender]
+let linkRegex = /(a(su|nj(([ie])ng|([ie])r)?)|me?me?k|ko?nto?l|ba?bi|fu?ck|ta(e|i)k|bangsat|g([iueo])bl([iueo])(k|g)|g ([iueo]) b l ([iueo]) (k|g)|a (n j (i n g|i r)?)s u|col(i|ay)|an?jg|b([ia])ngs([ia])?t|t([iuo])l([iuo])l)/i
+handler.before = function (m, { user }) {
+  if (m.isBaileys && m.fromMe) return true
+  if (/masuk|lanjutkan|banjir|(per)?panjang/g.exec(m.text)) return true
+  let chat = global.DATABASE.data.chats[m.chat]
+  let isGroupToxic = linkRegex.exec(m.text)
+
+  if (chat.antiToxic && isGroupToxic) {
+    m.reply('Jangan Toxic ya!!\n' + readMore )
+    if (global.opts['restrict']) {
+      // if (!user.isAdmin) return true
+      // this.groupRemove(m.chat, [m.sender])
+    }
+  }
+  return true
 }
-handler.customPrefix = /anj(k|g)|ajn?(g|k)|a?njin(g|k)|bajingan|b(a?n)?gsa?t|ko?nto?l|me?me?(k|q)|pe?pe?(k|q)|meki|titi(t|d)|pe?ler|tetek|toket|ngewe|go?blo?k|to?lo?l|idiot|(k|ng)e?nto?(t|d)|jembut|bego|dajj?al|janc(u|o)k|pantek|puki ?(mak)?|kimak|kampang|lonte|col(i|mek?)|pelacur|henceu?t|nigga|fuck|dick|bitch|tits|bastard|asshole/i // tambahin sendiri
 
-handler.command = new RegExp
+export const disable = true
 
-Export default handler 
+const more = String.fromCharCode(8206)
+const readMore = more.repeat(4001)
