@@ -693,10 +693,10 @@ export async function participantsUpdate({ id, participants, action }) {
                                 groupname: await this.getName(id),
                                 membercount: groupMetadata.participants.length
                             })
-  conn.sendButtonDoc(id, text, wm, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'Dyodev', fkontak, { contextInfo: { externalAdReply: { showAdAttribution: false,
-    mediaUrl: "https://youtu.be/-TleC8rbDT8",
+  conn.sendButtonDoc(id, text, wm, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'Dyodev', { contextInfo: { externalAdReply: { showAdAttribution: false,
+    mediaUrl: "https://youtu.be/z7CnIE52BX0",
     mediaType: 2, 
-    description: "https://youtu.be/-TleC8rbDT8", 
+    description: "https://youtu.be/z7CnIE52BX0", 
     title: 'Miku-MultiDevice',
     body: wm,
     thumbnail: await(await fetch(action === 'add' ? wel : lea)).buffer(),
