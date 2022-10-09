@@ -2,7 +2,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     conn.menfess = conn.menfess ? conn.menfess : {}
     if (!text) throw `*Cara penggunaan :*\n\n${usedPrefix + command} nomor|nama pengirim|pesan\n\n*Note:* nama pengirim boleh nama samaran atau anonymous.\n\n*Contoh:* ${usedPrefix + command} ${m.sender.split`@`[0]}|Nama|Halo.\n\n「 𝙰𝚕𝚋𝚎𝚍𝚘-𝙱𝙾𝚃  」`;
     let [jid, name, pesan] = text.split('|');
-    if ((!jid || !name || !pesan)) throw `*Cara penggunaan :*\n\n${usedPrefix + command} nomor|nama pengirim|pesan\n\n*Note:* nama pengirim boleh nama samaran atau anonymous.\n\n*Contoh:* ${usedPrefix + command} ${m.sender.split`@`[0]}|Bapakmu|Halo.\n\n「 𝙰𝚕𝚋𝚎𝚍𝚘-𝙱𝙾𝚃 」`;
+    if ((!jid || !name || !pesan)) throw `*Cara penggunaan :*\n\n${usedPrefix + command} nomor|nama pengirim|pesan\n\n*Note:* nama pengirim boleh nama samaran atau anonymous.\n\n*Contoh:* ${usedPrefix + command} ${m.sender.split`@`[0]}|Bapakmu|Halo.\n\n「 Miku-𝙱𝙾𝚃 」`;
     jid = jid.replace(/[^0-9]/g, '') + '@s.whatsapp.net';
     let data = (await conn.onWhatsApp(jid))[0] || {};
     if (!data.exists) throw 'Nomer tidak terdaftar di whatsapp.';
