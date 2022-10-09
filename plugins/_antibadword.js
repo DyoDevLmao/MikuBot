@@ -11,7 +11,7 @@ export async function before(m, { conn, args, usedPrefix, command, isAdmin, isBo
     let bang = m.key.id
     
     if (chat.antiToxic && isAntiToxic) {
-        await conn.sendButton(m.chat, `*Kata Toxic Terdeteksi!* ${isBotAdmin ? '' : '\n\n_Bot bukan atmin_'}`, author, ['Maaf', '/gpp'], m)
+        await conn.sendButton(m.chat, `*Kata Toxic Terdeteksi!* ${isBotAdmin ? '' : '\n\n_Bot bukan atmin_'}`, author, ['Maaf', '/y'], m)
         if (isBotAdmin && bot.restrict) {
             // await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
     global.db.data.users[m.sender].warn += 1
