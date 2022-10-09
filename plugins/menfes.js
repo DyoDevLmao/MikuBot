@@ -30,7 +30,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
         m.reply('eror');
     }
 }
-handler.tags = ['menbalas']
+handler.tags = ['fun']
 handler.help = ['menfes'].map(v => v + ' <nomor|nama|pesan>')
 handler.command = /^(confes|menfes)$/i
 handler.private = true
