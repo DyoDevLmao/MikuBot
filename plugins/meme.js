@@ -18,7 +18,7 @@ ${json.postLink}
 }
 
 handler.help = ['meme']
-handler.tags = ['random']
+handler.tags = ['internet']
 handler.command = /^meme$/i
 
 handler.fail = null
