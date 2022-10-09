@@ -36,7 +36,7 @@ default:
 }
 
 handler.help = ['waifu', 'neko', 'megumin']
-handler.tags = ['random']
+handler.tags = ['anime']
 handler.command = /^(waifu|neko|megumin)$/i
 
 export default handler
