@@ -20,7 +20,7 @@ ${json.postLink}
 }
 
 handler.help = ['meme (subreddit)']
-handler.tags = ['random']
+handler.tags = ['internet']
 handler.command = /^memesub$/i
 
 handler.fail = null
