@@ -7,18 +7,20 @@ try {
   if (!vid) throw 'Video/Audio Tidak ditemukan'
   let { title, description, thumbnail, videoId, durationH, viewH, publishedTime } = vid
   const url = 'https://www.youtube.com/watch?v=' + videoId
-  await conn.sendHydrated(m.chat, `*YOUTUBE PLAY*
-${htjava} *Title:* ${title}
-📤 *Published:* ${publishedTime}
-⏰ *Duration:* ${durationH}
-👁️ *Views:* ${viewH}
+  let whmodsdev = `*${htki} PLAY ${htka}*
+
+📌 *Title:* ${title}
 🔗 *Url:* ${url}
-📔 *Description:* ${description}
-  `.trim(), author, thumbnail, url, '📺Go To Youtube!', null, null, [
-    ['Audio 🎧', `${usedPrefix}yta ${url} yes`],
-    ['Video 🎥', `${usedPrefix}ytv ${url} yes`],
-    ['Youtube Search🔎', `${usedPrefix}yts ${url}`]
-  ], m)
+📄 *Description:* ${description}
+⏲️ *Published:* ${publishedTime}
+⌚ *Duration:* ${durationH}
+👁️ *Views:* ${viewH}
+  `
+  await conn.sendButton(m.chat, whmodsdev, wm, thumbnail, [
+    ['🎶 Audio', `${usedPrefix}yta ${url} yes`],
+    ['🎥 Video', `${usedPrefix}ytv ${url} yes`],
+    ['🔎 Youtube Search', `${usedPrefix}yts ${text}`]
+], m, fakes)
 } catch {
 if (!text) throw 'Input Query'
   let vid = (await youtubeSearch(text)).video[0]
