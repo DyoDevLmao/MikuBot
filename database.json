@@ -660,7 +660,7 @@
       "lastmonthly": 0,
       "lastbunga": 0,
       "premium": true,
-      "premiumTime":,
+      "premiumTime": 999999,
       "limitjoin": 0,
       "petFood": 0,
       "catexp": 0,
