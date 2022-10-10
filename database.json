@@ -1,4 +1,3 @@
-
 {
   "users": {
     "6285608625102@s.whatsapp.net": {
@@ -524,7 +523,7 @@
       "limit": 10,
       "lastclaim": 0,
       "registered": false,
-      "name": "MikuBot",
+      "name": "KannaBot",
       "pasangan": "",
       "age": -1,
       "regTime": -1,
@@ -594,13 +593,13 @@
       "roboxp": 0
     },
     "6281228496899@s.whatsapp.net": {
-      "exp": 100000,
-      "limit": 100,
-      "lastclaim": 
-      "registered": true,
-      "name": "Ryu",
+      "exp": 2930,
+      "limit": 10,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Ytta",
       "pasangan": "",
-      "age": 17,
+      "age": -1,
       "regTime": -1,
       "afk": -1,
       "afkReason": "",
@@ -609,7 +608,7 @@
       "level": 0,
       "role": "Beginner",
       "autolevelup": true,
-      "money": 999,
+      "money": 0,
       "bank": 0,
       "atm": 0,
       "fullatm": 0,
@@ -620,7 +619,7 @@
       "rock": 0,
       "string": 0,
       "emerald": 0,
-      "diamond": 100,
+      "diamond": 0,
       "gold": 0,
       "iron": 0,
       "upgrader": 0,
@@ -659,13 +658,13 @@
       "lastweekly": 0,
       "lastmonthly": 0,
       "lastbunga": 0,
-      "premium": true,
-      "premiumTime": 999999,
+      "premium": false,
+      "premiumTime": 0,
       "limitjoin": 0,
       "petFood": 0,
       "catexp": 0,
       "robo": 0,
-      "roboxp": 
+      "roboxp": 0
     },
     "120363042679754122@g.us": {
       "exp": 5,
