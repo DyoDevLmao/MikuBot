@@ -28,7 +28,7 @@ ${htjava} *⏰ Tanggal lahir* : Private 🥶
 ${htjava} *🎨 Umur* : 17
 ${htjava} *🧮 Kelas* : 2 esema
 ${htjava} *🧩 Hobby* : Ngegame
-${htjava} *💬 Sifat* : ASIK DAH KALAU DAH KENAL
+${htjava} *💬 Sifat* : prik
 ${htjava} *🗺️ Tinggal* : Indo, madiun, Jawa Timur
 ${htjava} *❤️ Waifu* : -
 
