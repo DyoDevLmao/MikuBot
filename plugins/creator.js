@@ -18,23 +18,21 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 • No Telp`
 
 //------------ BIO
-let ppown = 'https://telegra.ph/file/cce9ab4551f7150f1970d.jpg'
+let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `${htki} *BIODATA* ${htka}
-${htjava} *💌 Nama* : ryu
-${htjava} *✉️ Nama RL* : Rahasia🗿
+${htjava} *💌 Nama* : WH-MODS-Dev
+${htjava} *✉️ Nama RL* : HAMBA ALLAH
 ${htjava} *♂️ Gender* : Boys
 ${htjava} *🕋 Agama* : Islam
-${htjava} *⏰ Tanggal lahir* : 20 February 2005
-${htjava} *🎨 Umur* : 17
-${htjava} *🧮 Kelas* : 11
-${htjava} *🧩 Hobby* : Nonton Donghua, Chatting, Musik, Recode script bot
-${htjava} *💬 Sifat* : prik,bilek
-${htjava} *🗺️ Tinggal* : Indo, madiun, Jawa Timur
-${htjava} *❤️ Suka* : kadal
-${htjava} *💔 Benci* : autis,seleb
+${htjava} *⏰ Tanggal lahir* : Private 🥶
+${htjava} *🎨 Umur* : 18
+${htjava} *🧮 Kelas* : SUDAH TAMAT
+${htjava} *🧩 Hobby* : MODIFIKASI WHATSAPP "MODDER WHATSAPP"
+${htjava} *💬 Sifat* : ASIK DAH KALAU DAH KENAL
+${htjava} *🗺️ Tinggal* : Indo, Depok, Jawa Barat
+${htjava} *❤️ Waifu* : -
 
 ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
-${htjava} *🇫  ғᴀᴄᴇʙᴏᴏᴋ* : Mitsuha
 ${htjava} *🐈 ɢɪᴛʜᴜʙ:* ${sgh}
 •·––––––––––––––––––––––––––·•
 `
@@ -43,7 +41,7 @@ const sections = [
    {
 	title: `${htjava} OWNER –––––––––·•`,
 	rows: [
-	    {title: "📱 • Nomor", rowId: ".owner nomor"},
+	{title: "📱 • Nomor Owner", rowId: ".owner nomor"},
 	{title: "🎨 • Biodata", rowId: ".owner bio"},
 	{title: "🌎 • Script", rowId: ".sc"},
 	]
@@ -73,7 +71,12 @@ const listMessage = {
           conn.reply(m.chat, teksnomor, m, { contextInfo: { mentionedJid: [nowner] }})
             break
             case 'bio':
-          conn.sendHydrated(m.chat, teksbio, wm, ppown, sig, "📷 Instagram", nomorown, '🌹 Nomor', [[null, null], [null, null],[null,null]], m)
+          //conn.sendHydrated(m.chat, teksbio, wm, ppown, sig, "📷 Instagram", nomorown, '🌹 Nomor', [[null, null], [null, null],[null,null]], m)
+
+          conn.sendButton(m.chat, teksbio, wm, ppown, [
+                ['Sewa Bot', `${usedPrefix}sewa`],
+                ['Menu', `${usedPrefix}menu`]
+            ], m)
             break
             
           default:
@@ -96,7 +99,7 @@ const listMessage = {
   }
 }
 
-handler.help = ['owner', 'creaor']
+handler.help = ['owner', 'creator']
 handler.tags = ['main', 'info']
 handler.command = /^(owner|creator)/i
 
