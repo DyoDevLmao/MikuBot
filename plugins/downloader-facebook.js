@@ -3,7 +3,7 @@ import fetch from 'node-fetch'
 import axios from 'axios'
 let handler = async (m, { conn, usedPrefix, text, args, command }) => {
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-let pp = await conn.profilePictureUrl(who).catch(_ => hwaifu.getRandom())
+let pp = 'https://telegra.ph/file/e6d06460ed252645a9301.jpg'
 let name = await conn.getName(who)
 try {
     if (!args[0]) throw `Use example ${usedPrefix}${command} https://fb.watch/azFEBmFRcy/`
