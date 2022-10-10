@@ -594,11 +594,11 @@
       "roboxp": 0
     },
     "6281228496899@s.whatsapp.net": {
-      "exp": 2930,
-      "limit": 10,
+      "exp": 100000000000000000000,
+      "limit": 10000,
       "lastclaim": 0,
       "registered": true,
-      "name": "Ytta",
+      "name": "Ryu",
       "pasangan": "",
       "age": 17,
       "regTime": -1,
@@ -609,7 +609,7 @@
       "level": 0,
       "role": "Beginner",
       "autolevelup": true,
-      "money": 0,
+      "money": 99999999999,
       "bank": 0,
       "atm": 0,
       "fullatm": 0,
