@@ -13,7 +13,7 @@ let imgr = flaaa.getRandom()
     let src = await (await fetch('https://raw.githubusercontent.com/qisyana/scrape/main/tebakgame.json')).json()
     let json = src[Math.floor(Math.random() * src.length)]
   let caption = `
-Logo apakah ini?
+Game apakah ini?
 
 Timeout *${(timeout / 1000).toFixed(2)} detik*
 Ketik ${usedPrefix}hgame untuk bantuan
