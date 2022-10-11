@@ -25,12 +25,12 @@ ${htjava} *✉️ Nama RL* : rahasia🤓
 ${htjava} *♂️ Gender* : Boys
 ${htjava} *🕋 Agama* : Islam
 ${htjava} *⏰ Tanggal lahir* : Private 🥶
-${htjava} *🎨 Umur* : 17
-${htjava} *🧮 Kelas* : 2 esema
+${htjava} *🎨 Umur* : Private 
+${htjava} *🧮 Kelas* : Private
 ${htjava} *🧩 Hobby* : Ngegame
 ${htjava} *💬 Sifat* : prik
 ${htjava} *🗺️ Tinggal* : Indo, madiun, Jawa Timur
-${htjava} *❤️ Waifu* : -
+${htjava} *❤️ Waifu* : everything is mu waifu
 
 ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
 ${htjava} *🐈 ɢɪᴛʜᴜʙ:* ${sgh}
