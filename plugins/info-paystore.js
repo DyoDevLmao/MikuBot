@@ -2,10 +2,10 @@ let handler = async (m, { conn }) => {
 	//-----PRICE
 //sewa
 let sh = '5'
-let sn = '15'
-let ss = '30'
-let sp = '35'
-let sv = '65'
+let sn = '20'
+let ss = '45'
+let sp = '50'
+let sv = '70'
 //premium
 let ph = '5'
 let pn = '20'
@@ -18,7 +18,7 @@ let info = `
 ┊⫹⫺ *Normal:* _${sn}k/grup (1 bulan)_
 ┊⫹⫺ *Standar:* _${ss}k/grup (2 bulan)_
 ┊⫹⫺ *Pro:* _${sp}k/grup (4 bulan)_                                                      
-┊⫹⫺ *Vip:* = _${sv}k/grup (12 bulan/unlimited)_
+┊⫹⫺ *Vip:* = _${sv}k/grup (unlimited)_
 ╰═┅═━––––––๑
 
 ╭━━━━「 *PREMIUM* 」
@@ -34,11 +34,11 @@ let info = `
 • *Dana:* [${pdana}]
 
 –––––– *🐾 Kebijakan* ––––––
-🗣️: Kak, Kok harganya mahal banget?
-💬: Mau tawar menawar? boleh, silahkan chat owner aja
+🗣️: Kok harganya mahal banget?
+💬: Boleh nawar kok 
 
-🗣️: Scam ga nih kak?
-💬: Enggalah, Owner 100% Tepati janji #STAYHALAL
+🗣️: Scam ga nih?
+💬: Ga
 
 ▌│█║▌║▌║║▌║▌║█│▌
 `
