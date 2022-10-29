@@ -1,7 +1,7 @@
 {
-    "name": "miku-bot",
+    "name": "Miku-bot",
     "version": "3.1.0",
-    "description": "WhatsApp BOT By Dyo",
+    "description": "WhatsApp BOT By DyoDev",
     "main": "index.js",
     "type": "module",
     "directories": {
@@ -45,16 +45,16 @@
         "google-it",
         "baileys-md"
     ],
-    "homepage": "https://github.com/DyoDevLmao/ElainaBot",
+    "homepage": "https://github.com/WH-MODS-BOT/fix-bot-v1",
     "author": {
-        "name": "MIKU-BOT"
+        "name": "WH-MODS-BOT"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/DyoDevLmao/ElainaBot"
+        "url": "git+https://github.com/WH-MODS-BOT/fix-bot-v1"
     },
     "bugs": {
-        "url": "https://github.com/DyoDevLmao/ElainaBot"
+        "url": "https://github.com/WH-MODS-BOT/fix-bot-v1/"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
