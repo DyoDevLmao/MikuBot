@@ -11,6 +11,6 @@ let handler = async(m, { conn }) => {
 handler.help = ['neko']
 handler.tags = ['internet']
 handler.command = /^neko$/i
-handler.limit = false
+handler.limit = true
 
 export default handler
