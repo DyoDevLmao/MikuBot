@@ -3,9 +3,9 @@ let handler = async (m, { conn }) => {
 //sewa
 let sh = '5'
 let sn = '20'
-let ss = '45'
-let sp = '50'
-let sv = '70'
+let ss = '40'
+let sp = '80'
+let sv = '100'
 //premium
 let ph = '5'
 let pn = '20'
@@ -18,7 +18,7 @@ let info = `
 ┊⫹⫺ *Normal:* _${sn}k/grup (1 bulan)_
 ┊⫹⫺ *Standar:* _${ss}k/grup (2 bulan)_
 ┊⫹⫺ *Pro:* _${sp}k/grup (4 bulan)_                                                      
-┊⫹⫺ *Vip:* = _${sv}k/grup (unlimited)_
+┊⫹⫺ *Vip:* = _${sv}k/grup (12 bulan)_
 ╰═┅═━––––––๑
 
 ╭━━━━「 *PREMIUM* 」
@@ -26,11 +26,11 @@ let info = `
 ┊⫹⫺ *Normal:* _${pn}k (1 bulan)_
 ┊⫹⫺ *Pro:* _${pp}k (4 bulan)_
 ┊⫹⫺ *Vip:* _${pv}k (8 bulan)_                                               
-┊⫹⫺ *Permanent:* = _${ppm}k (Unlimited)_
+┊⫹⫺ *Permanent:* = _${ppm}k (12 bulan)_
 ╰═┅═━––––––๑
 
 *⫹⫺ PAYMENT:*
-• *Pulsa:* [${ppulsa}]
+• *Gopay:* [${ppulsa}]
 • *Dana:* [${pdana}]
 
 –––––– *🐾 Kebijakan* ––––––
