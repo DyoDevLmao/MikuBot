@@ -8,6 +8,5 @@ handler.command = /^(cum)$/i
 handler.tags = ['nsfw']
 handler.help = ['cum']
 handler.premium = true
-handler.owner = true
 handler.limit = true
 export default handler
