@@ -7,6 +7,7 @@ let handler = async (m, { conn, command }) => {
 handler.command = /^(cum)$/i
 handler.tags = ['nsfw']
 handler.help = ['cum']
-handler.admin = true
+handler.premium = true
+handler.owner = true
 handler.limit = true
 export default handler
