@@ -169,8 +169,8 @@ global.htjava = '⫹⫺'    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
-global.stickpack = 'MikuBot'
-global.stickauth = `☂︎\nM\nI\nK\nU\n𝗕\n𝗢\n𝗧\n✦\n\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
+global.stickpack = 'MikuBot-MD'
+global.stickauth = `☂︎MIKUBOT-MD ⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
 global.packname = 'Cʀᴇᴀᴛᴇᴅ Bʏ MikuBot'
 
 global.multiplier = 38 // The higher, The harder levelup
