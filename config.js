@@ -114,7 +114,7 @@ global.logo = 'https://ibb.co/17RY7x9'
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://telegra.ph/file/55594567f468253bf3fa9.jpg' //Main Thumbnail
+global.thumb = 'https://telegra.ph/file/af0ec00d5efc972389b73.png' //Main Thumbnail
 global.thumb2 = 'https://telegra.ph/file/26b515d170f1e599f78a7.jpg'
 global.thumbbc = 'https://telegra.ph/file/08e57d12a311fcf78ebdf.jpg' //For broadcast
 global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
