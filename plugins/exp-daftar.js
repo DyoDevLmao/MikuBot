@@ -57,7 +57,7 @@ const listMessage = {
 }
 
   let user = global.db.data.users[m.sender]
-  if (user.registered === true) throw `[💬] Kamu sudah terdaftar\nMau daftar ulang? *${usedPrefix}unreg <SERIAL NUMBER>*`
+  if (user.registered === true) throw `[💬] Kamu sudah terdaftar`
   if (!Reg.test(text)) return conn.sendMessage(m.chat, listMessage, { quoted: m })
   let [_, name, splitter, age] = text.match(Reg)
   if (!name) throw 'Nama tidak boleh kosong (Alphanumeric)'
@@ -78,8 +78,6 @@ const listMessage = {
 │▸ *ᴀɢᴇ:* ${age} ʏᴇᴀʀs
 │▸ *sɴ:* ${sn}
 ┗────···
-
-ᴅᴀᴛᴀ ᴜsᴇʀ ʏᴀɴɢ ᴛᴇʀsɪᴍᴘᴀɴ ᴅɪᴅᴀᴛᴀʙᴀsᴇ ʙᴏᴛ, ᴅɪᴊᴀᴍɪɴ ᴀᴍᴀɴ ᴛᴀɴᴘᴀ ᴛᴇʀsʜᴀʀᴇ (. ❛ ᴗ ❛.)
 `
   let buttonMessage= {
 'document':{'url':sgc},
